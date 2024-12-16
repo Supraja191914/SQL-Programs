@@ -1,0 +1,72 @@
+q1. Table A
+THEATRE_ID      MOVIE_NAME
+1                      A
+2                      B
+3                      C
+4                      D
+ 
+ 
+ 
+Table B
+THEATRE_ID               SHOW_ID                     TICKETS_SOLD  AVERAGE_PRICE
+1                            1                           NULL           200
+2                            3                           10             400
+4                            4                           100            250
+1                            2                           50             200
+2                            6                           500            400
+3                            1                           300            150
+ 
+--> Query to Print the movie name with the highest earnings.
+
+q2.
+name
+A
+A
+B
+B
+B
+C
+C
+D
+
+
+I want target 
+name count
+A 	1
+A 	2
+B 	1
+B 	2
+B 	3
+C 	1
+
+q3.
+Department| Region| Sales
+A           EURO   100K
+A 	   AMERICA 200K
+A 	    JPAC   200K
+B 	    EURO   100K
+B 	   AMERICA  50K
+B 	    JPAC   100K
+C 	   EURO	   150K
+C 	   AMERICA 250K
+C 	    JPAC   250K
+ 
+ 
+Query to print the % of sale for each department on the sales of the highest selling department for that Region.
+
+q4. orders:
+OrderID | CustomerId | OrderDate | Amount |
+1	|	101  | 2024-01-10| 500	  |
+2	|	102  | 2024-01-15| 300    |
+3	|	101  | 2024-02-05| 700    |
+4	|	103  | 2024-02-20| 250    |
+5	|	101  | 2024-03-01| 200    |
+___________________________________________
+customers:
+CustomerID | CustomerName | City	  |
+101	   | Alice	  | New York	  |
+102	   | Bob	  | Los Angeles	  |
+103	   | Charlie	  | San Francisco |
+
+write a query to find customers who have placed orders in consecutive months. Display the customer's name, city and
+the number of consecutive months they placed orders?
